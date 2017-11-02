@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Course} from '../course';
 
 @Component({
   selector: 'course-list',
@@ -10,6 +11,7 @@ export class CourseListComponent implements OnInit{
 
   }
   @Input() count:number;
+  @Input('enrolledCourse') courses:Course;
   ngOnInit(){
 
   }
