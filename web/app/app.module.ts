@@ -12,7 +12,7 @@ import {MenuComponent} from "./menu/menu.component";
 import {FileNotFoundComponent} from "./filenotfound/file-not-found.component";
 import {AppRoutingModule} from "./app-routing.module";
 import {StudentRoutingModule} from "./students/student-routing.module";
-import {StudentsDataDBService} from "./service/students-data-db.service";
+//import {StudentsDataDBService} from "./service/students-data-db.service";
 import {LocationStrategy, HashLocationStrategy} from "@angular/common";
 import {StudentsDataServerService} from "./service/students-data-server.service";
 
