@@ -6,8 +6,8 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'students',
-  templateUrl: 'app/students/list/students.component.html',
-  styleUrls: ['app/students/list/students.component.css']
+  templateUrl: './students.component.html',
+  styleUrls: ['./students.component.css']
 })
 export class StudentsComponent {
   students: Student[];

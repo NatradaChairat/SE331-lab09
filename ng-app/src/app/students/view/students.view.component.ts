@@ -5,8 +5,8 @@ import {StudentsDataService} from "../../service/students-data.service";
 import 'rxjs/add/operator/switchMap';
 @Component({
  selector: 'students-view',
- templateUrl: 'app/students/view/students.view.component.html',
- styleUrls:['app/students/view/students.view.component.css']
+ templateUrl: './students.view.component.html',
+ styleUrls:['./students.view.component.css']
 })
 export class StudentsViewComponent {
   constructor(private route: ActivatedRoute, private studentDataService:StudentsDataService) {}

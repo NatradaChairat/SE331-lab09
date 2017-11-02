@@ -4,8 +4,8 @@ import {StudentsDataService} from "../service/students-data.service";
 import {Router} from "@angular/router";
 @Component({
  selector: 'menu',
- templateUrl: 'app/menu/menu.component.html',
- styleUrls:['app/menu/menu.component.css']
+ templateUrl: './menu.component.html',
+ styleUrls:['./menu.component.css']
 })
 export class MenuComponent {
   constructor(private studentDataService: StudentsDataService, private router: Router ) {

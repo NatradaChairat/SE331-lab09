@@ -5,8 +5,8 @@ import {StudentsDataService} from "../../service/students-data.service";
 
 @Component({
   selector: 'students-add',
-  templateUrl: 'app/students/add/students.add.component.html',
-  styleUrls: ['app/students/add/students.add.component.css']
+  templateUrl: './students.add.component.html',
+  styleUrls: ['./students.add.component.css']
 })
 export class StudentsAddComponent {
   student: any = {};
